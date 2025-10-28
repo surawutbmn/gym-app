@@ -10,7 +10,7 @@ export default function Grid() {
   })
 
   function handleSave(index, data) {
-    // save to local storage and modify the saved workouts state
+    // save to local storage, modify the saved workouts
     const newObj = {
       ...savedWorkouts,
       [index]: {
